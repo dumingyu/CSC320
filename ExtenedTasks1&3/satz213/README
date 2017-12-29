@@ -1,0 +1,9 @@
+Solver: Satz
+Author: Chu Min Li (cli@laria.u-picardie.fr)
+
+To compile under Unix (or Linux) use 'gcc -O3 -o satz satz.c'
+
+Call: satz <cnf-file>, where <cnf-file> is a file in DIMACS cnf format.
+or: satz -s <cnf-file> to avoid the preprocessing which adds resolvents of
+length<=3.
+
